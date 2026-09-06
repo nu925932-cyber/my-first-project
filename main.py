@@ -1,5 +1,5 @@
 from faker import Faker
 
-fake = Faker()
-print("Имя:", fake.name())
-print("Адрес:", fake.address())
+generator = Faker()
+print("Имя:", generator.name())
+print("Адрес:", generator.address())
