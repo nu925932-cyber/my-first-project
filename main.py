@@ -1,3 +1,3 @@
 from datetime import datetime
-print("Привет, мир!")
-print("Текущая дата:", datetime.now().date())
+print("ПРИВЕТ, МИР!")
+print("ТЕКУЩАЯ ДАТА:", datetime.now().date())
