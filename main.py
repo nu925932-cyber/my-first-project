@@ -1,6 +1,5 @@
-from datetime import datetime
+from faker import Faker
 
-print("Привет, мир!")
-print("Текущая дата:", datetime.now().date())
-
-# TODO: Добавить проверку на пустой ввод
+fake = Faker()
+print("Случайное имя:", fake.name())
+print("Случайный адрес:", fake.address())
