@@ -1,5 +1,0 @@
-import datetime
-
-print("Hello, World from Python!")
-print("Текущая дата:", datetime.datetime.now().strftime("%Y-%m-%d"))
-print("Текущее время:", datetime.datetime.now().strftime("%H:%M:%S"))
